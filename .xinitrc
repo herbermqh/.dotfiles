@@ -19,4 +19,5 @@ sh initial.sh &
 sh external.sh &
 
 #Execute DWM
-exec dwm
+# exec dwm
+exec i3
