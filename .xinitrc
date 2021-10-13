@@ -1,5 +1,5 @@
 #dwm status
-/home/userh/dwm/dwm-bar/dwm_bar.sh &
+#/home/userh/dwm/dwm-bar/dwm_bar.sh &
 
 #keyboad layout
 setxkbmap es &
@@ -20,4 +20,5 @@ sh external.sh &
 
 #Execute DWM
 # exec dwm
-exec i3
+exec ~/.dwm/autostart
+# exec i3
