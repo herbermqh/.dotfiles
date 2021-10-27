@@ -2,7 +2,7 @@ ln -s /home/userh/.dotfiles/.bash_profile /home/userh/
 
 
 
-sudo pacman -S python lua alacritty nautilus flameshot ranger rofi zathura zathura-pdf-mupdf curl zsh pulseaudio pulseaudio-alsa  pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc pulseaudio-zeroconf bluez bluez-utils xbacklight xorg-xbacklight acpi nodejs go paximer pavucontrol reflector neovim python-pynvim yarn ruby 
+sudo pacman -S python python-pip lua alacritty nautilus flameshot ranger rofi zathura zathura-pdf-mupdf curl zsh pulseaudio pulseaudio-alsa  pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc pulseaudio-zeroconf bluez bluez-utils xbacklight xorg-xbacklight acpi nodejs go paximer pavucontrol reflector neovim python-pynvim yarn ruby p7zip zip unzip unrar file-roller okular kile kdeconnect lazygit evince dbus xclip xsel texlab exa
 
 
 systemctl enable bluetooth.service
@@ -14,3 +14,17 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
+
+
+
+
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/algebra /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/apunte /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/fisica /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/geometriaAnalitica /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/preambulo /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/preambuloPR /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/preambuloPresentacion /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/paquetes/quimica /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo ln -s /home/userh/Documents/LaTeX/varios/colors /usr/local/texlive/2021/texmf-dist/tex/latex/
+sudo texhash

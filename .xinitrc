@@ -2,21 +2,22 @@
 #/home/userh/dwm/dwm-bar/dwm_bar.sh &
 
 #keyboad layout
-setxkbmap es &
+setxkbmap es&
 
 #configuracion pantalla
-sh .screenlayout/apantalla.sh &
+sh .screenlayout/apantalla.sh&
 
 #trasparencias
 #xcompmgr -cf &
-#picom -f & */
+# picom& 
 
 #wallpaper 
-nitrogen --restore &
+nitrogen --restore&
 
 #mis comandos
-sh initial.sh &
-sh external.sh &
+sh initial.sh&
+sh external.sh&
+syndaemon -i 0.5 -d&
 
 #Execute DWM
 # exec dwm
