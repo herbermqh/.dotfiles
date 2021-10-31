@@ -2,10 +2,15 @@ ln -s /home/userh/.dotfiles/.bash_profile /home/userh/
 
 
 
-sudo pacman -S python python-pip lua alacritty nautilus flameshot ranger rofi zathura zathura-pdf-mupdf curl zsh pulseaudio pulseaudio-alsa  pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc pulseaudio-zeroconf bluez bluez-utils xbacklight xorg-xbacklight acpi nodejs go paximer pavucontrol reflector neovim python-pynvim yarn ruby p7zip zip unzip unrar file-roller okular kile kdeconnect lazygit evince dbus xclip xsel texlab exa
+sudo pacman -S python python-pip lua alacritty nautilus flameshot ranger rofi zathura zathura-pdf-mupdf curl zsh pulseaudio pulseaudio-alsa  pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack pulseaudio-lirc pulseaudio-zeroconf bluez bluez-utils xbacklight xorg-xbacklight acpi nodejs go paximer pavucontrol reflector neovim python-pynvim yarn ruby p7zip zip unzip unrar file-roller okular kile kdeconnect lazygit evince dbus xclip xsel texlab exa awk xargs lm_sensors sysstat
+
+
 
 
 systemctl enable bluetooth.service
+systemctl enable m_sensors.service
+sensors-detect --auto
+
 
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
