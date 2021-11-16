@@ -66,7 +66,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: full
+  decorations: none
 
   # Startup Mode (changes require restart)
   #
@@ -111,7 +111,7 @@ font:
   italic:
     family: Hack Nerd Font
   normal:
-    family: Hack Nerd Font 
+    family: Hack Nerd Font
   # Point size
   size: 9
   offset:
@@ -126,36 +126,37 @@ draw_bold_text_with_bright_colors: true
 
 # Colors
 colors:
-  bright:
-    black:   '0x4d4d4d'
-    red:     '0xff6e67'
-    green:   '0x5af78e'
-    yellow:  '0xf4f99d'
-    blue:    '0xcaa9fa'
-    magenta: '0xff92d0'
-    cyan:    '0x9aedfe'
-    white:   '0xe6e6e6'
   normal:
-    black:   '0x000000'
-    red:     '0xff5555'
-    green:   '0x50fa7b'
-    yellow:  '0xf1fa8c'
-    blue:    '0xbd93f9'
-    magenta: '0xff79c6'
-    cyan:    '0x8be9fd'
-    white:   '0xbfbfbf'
+    black:   "#32344a"
+    red:     "#f7768e"
+    green:   "#9ece6a"
+    yellow:  "#e0af68"
+    blue:    "#7aa2f7"
+    magenta: "#ad8ee6"
+    cyan:    "#449dab"
+    white:   "#787c99"
+  bright:
+    black:   "#444b6a"
+    red:     "#ff7a93"
+    green:   "#b9f27c"
+    yellow:  "#ff9e64"
+    blue:    "#7da6ff"
+    magenta: "#bb9af7"
+    cyan:    "#0db9d7"
+    white:   "#acb0d0"
   primary:
-    background: '0x282a36'
-    foreground: '0xf8f8f2'
+    background: '#1a1b26'
+    foreground: '#a9b1d6'
   dim:
-    black:   '0x14151b'
-    red:     '0xff2222'
-    green:   '0x1ef956'
-    yellow:  '0xebf85b'
-    blue:    '0x4d5b86'
-    magenta: '0xff46b0'
-    cyan:    '0x59dffc'
-    white:   '0xe6e6d1'
+    black:   "#32344a"
+    red:     "#f7768e"
+    green:   "#9ece6a"
+    yellow:  "#e0af68"
+    blue:    "#7aa2f7"
+    magenta: "#ad8ee6"
+    cyan:    "#449dab"
+    white:   "#787c99"
+
 
   # Cursor colors
   #
@@ -289,7 +290,7 @@ bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.8
+background_opacity: 1
 selection:
   # This string contains all characters that are used as separators for
   # "semantic words" in Alacritty.

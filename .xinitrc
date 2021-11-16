@@ -19,7 +19,11 @@ sh initial.sh&
 sh external.sh&
 syndaemon -i 0.5 -d&
 
+
 #Execute DWM
 # exec dwm
+
+#autostart hchadwm
 exec ~/.dwm/autostart
+
 # exec i3
