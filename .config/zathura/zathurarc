@@ -1,5 +1,7 @@
 set window-title-basename "true"
 set selection-clipboard "clipboard"
+set synctex true
+set synctex-editor-command "code -g %{input}:%{line}"
 
 # Dracula color theme for Zathura
 # Swaps Foreground for Background to get a light version if the user prefers
