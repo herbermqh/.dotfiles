@@ -23,7 +23,8 @@ syndaemon -i 0.5 -d&
 #Execute DWM
 # exec dwm
 
-#autostart hchadwm
-exec ~/.dwm/autostart
+#autostart chadwm
+exec ~/.config/chadwm/scripts/./autostart
+
 
 # exec i3
